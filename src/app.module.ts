@@ -4,7 +4,7 @@ import { DatabaseModule } from './modules/database/database.module';
 import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
-  imports: [UsersModule, DatabaseModule, AuthModule],
+  imports: [AuthModule, UsersModule, DatabaseModule],
   controllers: [],
   providers: [],
 })
